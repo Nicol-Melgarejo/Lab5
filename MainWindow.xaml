@@ -1,0 +1,23 @@
+﻿<Window x:Class="LAB05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB05"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="520" Width="917">
+    <Grid HorizontalAlignment="Center">
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,82,0,0">
+            <Border BorderBrush="Gray" BorderThickness="2" CornerRadius="15" Background="#FFF3F3F3" Width="440" Height="335">
+                <StackPanel Margin="20">
+                    <Label HorizontalAlignment="Center" FontSize="30" FontFamily="Segoe UI" FontStyle="Italic" Foreground="#FF404040" FontWeight="Bold" Content="MENÚ"/>
+                    <Label Margin="0,20,0,10" FontWeight="Bold" FontFamily="Segoe UI" FontSize="16" HorizontalAlignment="Center" Content="Por favor, seleccione una opción:"/>
+                    <Button Width="200" Height="50" Margin="0 10" Background="#FFFF7F7F" FontWeight="Bold" Content="Insertar Empleados" Foreground="White" FontFamily="Segoe UI" FontSize="14" Click="Button_Click"/>
+                    <Button Width="200" Height="50" Background="#FFFF7F7F" FontWeight="Bold" Content="Listar Empleados" Foreground="White" FontFamily="Segoe UI" FontSize="14" Click="Button_Click_1"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+
+
+</Window>
